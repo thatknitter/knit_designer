@@ -27,6 +27,12 @@ namespace knit_designer
             Gauge gauge = new Gauge(-1);
         }
 
-
+        [TestMethod]
+        public void TestGagueStFourInch()
+        {
+            Gauge gauge = new Gauge(8);
+            gauge.FourIn(4);
+            Assert.AreEqual(32, gauge.FourIn);
+        }
     }
 }
