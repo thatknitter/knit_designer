@@ -4,7 +4,22 @@
         Title="Window1" Height="650" Width="700">
     <Grid>
         <TextBlock HorizontalAlignment="Center" Margin="270,10,278,0" TextWrapping="Wrap" Text="Sweater" VerticalAlignment="Top" FontFamily="Aharoni" FontSize="36"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="50,85,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-
+        <ComboBox HorizontalAlignment="Left" Height="34" Margin="34,83,0,0" VerticalAlignment="Top" Width="186"/>
+        <ComboBox HorizontalAlignment="Left" Height="34" Margin="34,142,0,0" VerticalAlignment="Top" Width="186"/>
+        <ComboBox HorizontalAlignment="Left" Height="34" Margin="34,200,0,0" VerticalAlignment="Top" Width="186"/>
+        <ComboBox HorizontalAlignment="Left" Height="34" Margin="34,259,0,0" VerticalAlignment="Top" Width="186"/>
+        <TextBlock HorizontalAlignment="Left" Margin="260,83,0,0" TextWrapping="Wrap" Text="Subtype" VerticalAlignment="Top" FontSize="18" Height="34" Width="74"/>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="34,319,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="105" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="260,142,0,0" TextWrapping="Wrap" Text="Shoulder Type" VerticalAlignment="Top" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="260,200,0,0" TextWrapping="Wrap" Text="Neckline" VerticalAlignment="Top" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="260,259,0,0" TextWrapping="Wrap" Text="Sleeve Type" VerticalAlignment="Top" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="260,319,0,0" TextWrapping="Wrap" Text="Length" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="34,367,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="105" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="260,367,0,0" TextWrapping="Wrap" Text="Width at Base" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="34,418,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="105" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="260,418,0,0" TextWrapping="Wrap" Text="Width at Bust" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="34,468,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="105" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="260,468,0,0" TextWrapping="Wrap" Text="Width at Waist" VerticalAlignment="Top" FontSize="18"/>
+        <ScrollBar HorizontalAlignment="Left" Margin="665,10,0,0" VerticalAlignment="Top" Height="599"/>
     </Grid>
 </Window>
