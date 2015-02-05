@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "knit_designer", "knit_designer\knit_designer.csproj", "{A4C5CA41-D0E6-4EF3-AE7C-BA1B6CD06EBE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestKnitDesigner", "knit_designer\TestKnitDesigner.csproj", "{A4C5CA41-D0E6-4EF3-AE7C-BA1B6CD06EBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnitDesigner", "KnitDesigner\KnitDesigner.csproj", "{336159AE-E3A3-4413-8F19-70A4962BC2AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenKnit", "MainWindow\OpenKnit.csproj", "{503F35F7-C5AB-47B6-88BA-85258EF67FDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{A4C5CA41-D0E6-4EF3-AE7C-BA1B6CD06EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4C5CA41-D0E6-4EF3-AE7C-BA1B6CD06EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4C5CA41-D0E6-4EF3-AE7C-BA1B6CD06EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336159AE-E3A3-4413-8F19-70A4962BC2AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336159AE-E3A3-4413-8F19-70A4962BC2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336159AE-E3A3-4413-8F19-70A4962BC2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336159AE-E3A3-4413-8F19-70A4962BC2AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{503F35F7-C5AB-47B6-88BA-85258EF67FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{503F35F7-C5AB-47B6-88BA-85258EF67FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{503F35F7-C5AB-47B6-88BA-85258EF67FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{503F35F7-C5AB-47B6-88BA-85258EF67FDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-﻿<Window x:Class="MainWindow.MainWindow"
+﻿<Window x:Class="OpenKnit.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="650" Width="700">
