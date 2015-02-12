@@ -58,8 +58,8 @@
       <DependentUpon>Hat.xaml</DependentUpon>
     </Compile>
     <Compile Include="Sweater.cs" />
-    <Compile Include="Sweater.xaml.cs">
-      <DependentUpon>Sweater.xaml</DependentUpon>
+    <Compile Include="SweaterPage.xaml.cs">
+      <DependentUpon>SweaterPage.xaml</DependentUpon>
     </Compile>
     <Page Include="Hat.xaml">
       <SubType>Designer</SubType>
@@ -77,7 +77,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Sweater.xaml">
+    <Page Include="SweaterPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

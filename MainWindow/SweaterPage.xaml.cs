@@ -16,11 +16,11 @@ using KnitDesigner;
 namespace KnitDesigner
 {
     /// <summary>
-    /// Interaction logic for Window1.xaml
+    /// Interaction logic for SweaterPage.xaml
     /// </summary>
-    public partial class Sweater : Window
+    public partial class SweaterPage : Window
     {
-        public Sweater()
+        public SweaterPage()
         {
             InitializeComponent();
         }

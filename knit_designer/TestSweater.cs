@@ -9,37 +9,37 @@ namespace TestKnitDesigner
     {
         public class MySweater : Sweater
         {
-            public override int Waist
+            public override decimal Waist
             {
                 get { throw new NotImplementedException(); }
             }
 
-            public override int Length
+            public override decimal Length
             {
                 get { throw new NotImplementedException(); }
             }
 
-            public override int Bust
+            public override decimal Bust
             {
                 get { throw new NotImplementedException(); }
             }
 
-            public override int Base
+            public override decimal Base
             {
                 get { throw new NotImplementedException(); }
             }
 
-            public override int Shoulder
+            public override decimal ShoulderWidth
             {
                 get { throw new NotImplementedException(); }
             }
 
-            public override int SleeveLength
+            public override decimal SleeveLength
             {
                 get { throw new NotImplementedException(); }
             }
 
-            public override int SleeveWidth
+            public override decimal SleeveWidth
             {
                 get { throw new NotImplementedException(); }
             }    
@@ -57,7 +57,7 @@ namespace TestKnitDesigner
         public void TestDefaultSubtype()
         {
             Sweater sweater = new MySweater();
-            Assert.AreEqual(Sub.Pullover, sweater.Subtype);
+            Assert.AreEqual(Sub.Pullover, sweater.SubType);
         }
 
         [TestMethod]
@@ -78,7 +78,7 @@ namespace TestKnitDesigner
         public void TestDefaultSize()
         {
             Sweater sweater = new MySweater();
-            Assert.AreEqual(Size.Small, sweater.RegSize);
+            Assert.AreEqual(Size.Small, sweater.SizeDesigned);
         }
     }
 }
