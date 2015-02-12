@@ -6,7 +6,6 @@ using TestStack.White.Factory;
 using TestStack.White.UIItems;
 using TestStack.White.UIItems.WindowItems;
 using TestStack.White.UIItems.ListBoxItems;
-using OpenKnit;
 
 namespace TestKnitDesigner
 {
@@ -22,7 +21,7 @@ namespace TestKnitDesigner
         {
             test_context = _context;
             var applicationDir = _context.DeploymentDirectory;
-            var applicationPath = Path.Combine(applicationDir, "..\\..\\..\\knit_designer\\bin\\Debug\\KnitDesigner");
+            var applicationPath = Path.Combine(applicationDir, "..\\..\\..\\knit_designer\\bin\\Debug\\MainWindow");
             application = Application.Launch(applicationPath);
             window = application.GetWindow("MainWindow", InitializeOption.NoCache);
         }

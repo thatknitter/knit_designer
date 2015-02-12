@@ -14,7 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using KnitDesigner;
 
-namespace OpenKnit
+namespace KnitDesigner
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
