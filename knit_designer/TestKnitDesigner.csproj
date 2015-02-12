@@ -66,6 +66,16 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KnitDesigner\KnitDesigner.csproj">
+      <Project>{336159ae-e3a3-4413-8f19-70a4962bc2ab}</Project>
+      <Name>KnitDesigner</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MainWindow\OpenKnit.csproj">
+      <Project>{503f35f7-c5ab-47b6-88ba-85258ef67fde}</Project>
+      <Name>OpenKnit</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
