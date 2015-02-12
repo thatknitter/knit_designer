@@ -22,5 +22,9 @@ namespace KnitDesigner
             }
             this.PerInch = PerInch;
         }
+
+        
+
+
     }
 }

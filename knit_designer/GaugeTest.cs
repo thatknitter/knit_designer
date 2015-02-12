@@ -11,7 +11,7 @@ namespace TestKnitDesigner
         public void TestGaugeEntered()
         {
             Gauge gauge = new Gauge(8);
-            Assert.AreEqual(8, gauge.PerInch);
+            Assert.AreEqual(8, gauge.perInch);
         }
 
         [TestMethod]
@@ -28,12 +28,6 @@ namespace TestKnitDesigner
             Gauge gauge = new Gauge(-1);
         }
 
-        [TestMethod]
-        public void TestGagueStFourInch()
-        {
-            Gauge gauge = new Gauge(8);
-            gauge.FourIn(4);
-            Assert.AreEqual(32, gauge.FourIn);
-        }
+        
     }
 }
