@@ -57,6 +57,7 @@
     <Compile Include="Hat.xaml.cs">
       <DependentUpon>Hat.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Sweater.cs" />
     <Compile Include="Sweater.xaml.cs">
       <DependentUpon>Sweater.xaml</DependentUpon>
     </Compile>
