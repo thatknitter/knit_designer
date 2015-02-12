@@ -3,19 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace knit_designer
+namespace KnitDesigner
 {
-    //class Gauge
-    //{
-    //    private decimal 
+    public class Gauge
+    { 
 
-    //    public Gauge(int PerInch)
-    //    {
-    //        if (PerInch <= 0)
-    //        {
-    //            throw new ArgumentException("Please enter a valid number.");
-    //        }
-    //        this.PerInch = PerInch;
-    //    }
-    //}
+        public Gauge(int PerInch)
+        {
+            if (PerInch <= 0)
+            {
+                throw new ArgumentException("Please enter a valid number.");
+            }
+            this.PerInch = PerInch;
+        }
+    }
 }

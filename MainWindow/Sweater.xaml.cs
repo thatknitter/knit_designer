@@ -11,15 +11,16 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using KnitDesigner;
 
-namespace MainWindow
+namespace OpenKnit
 {
     /// <summary>
     /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Sweater : Window
     {
-        public Window1()
+        public Sweater()
         {
             InitializeComponent();
         }
