@@ -8,8 +8,9 @@ namespace TestKnitDesigner
     public class TestSleeve
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestSleeveChosen()
         {
+
         }
     }
 }

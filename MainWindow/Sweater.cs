@@ -6,7 +6,16 @@ using System.Text;
 namespace KnitDesigner
 {
     abstract public class Sweater
-    {
+     {
+        public string Neck { get; set; }
+
+        public string Sub { get; set; }
+
+        public string Shoulder { get; set; }
+
+        public string Sleeve { get; set; }
+
+        public string Size { get; set; }
 
         abstract public decimal Waist { get; }
 
