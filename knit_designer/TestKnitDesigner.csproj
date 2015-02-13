@@ -66,6 +66,7 @@
     <Compile Include="TestSleeve.cs" />
     <Compile Include="TestBust.cs" />
     <Compile Include="TestWaist.cs" />
+    <Compile Include="TestHem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
