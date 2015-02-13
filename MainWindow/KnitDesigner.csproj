@@ -53,6 +53,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Bust.cs" />
     <Compile Include="Gauge.cs" />
     <Compile Include="Hat.xaml.cs">
       <DependentUpon>Hat.xaml</DependentUpon>
