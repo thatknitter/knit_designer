@@ -46,39 +46,39 @@ namespace TestKnitDesigner
 
         }
 
-        [TestMethod]
-        public void TestDefaultNeckline()
-        {
-            Sweater sweater = new MySweater();
-            Assert.AreEqual(Neck.Crew, sweater.Neckline);
-        }
+        //[TestMethod]
+        //public void TestDefaultNeckline()
+        //{
+        //    Sweater sweater = new MySweater();
+        //    Assert.AreEqual(Neck.Crew, sweater.Neckline);
+        //}
 
-        [TestMethod]
-        public void TestDefaultSubtype()
-        {
-            Sweater sweater = new MySweater();
-            Assert.AreEqual(Sub.Pullover, sweater.SubType);
-        }
+        //[TestMethod]
+        //public void TestDefaultSubtype()
+        //{
+        //    Sweater sweater = new MySweater();
+        //    Assert.AreEqual(Sub.Pullover, sweater.SubType);
+        //}
 
-        [TestMethod]
-        public void TestDefaultShoulder()
-        {
-            Sweater sweater = new MySweater();
-            Assert.AreEqual(Shoulder.Drop, sweater.ShoulderType);
-        }
+        //[TestMethod]
+        //public void TestDefaultShoulder()
+        //{
+        //    Sweater sweater = new MySweater();
+        //    Assert.AreEqual(Shoulder.Drop, sweater.ShoulderType);
+        //}
 
-        [TestMethod]
-        public void TestDefaultSleeveType()
-        {
-            Sweater sweater = new MySweater();
-            Assert.AreEqual(Sleeve.Long, sweater.SleeveType);
-        }
+        //[TestMethod]
+        //public void TestDefaultSleeveType()
+        //{
+        //    Sweater sweater = new MySweater();
+        //    Assert.AreEqual(Sleeve.Long, sweater.SleeveType);
+        //}
 
-        [TestMethod]
-        public void TestDefaultSize()
-        {
-            Sweater sweater = new MySweater();
-            Assert.AreEqual(Size.Small, sweater.SizeDesigned);
-        }
+        //[TestMethod]
+        //public void TestDefaultSize()
+        //{
+        //    Sweater sweater = new MySweater();
+        //    Assert.AreEqual(Size.Small, sweater.SizeDesigned);
+        //}
     }
 }

@@ -31,7 +31,7 @@ namespace KnitDesigner
 
         abstract public decimal SleeveWidth { get; }
 
-
+        //Set string to "crew"
 
     }
 }
