@@ -7,15 +7,25 @@ namespace KnitDesigner
 {
     abstract public class Sweater
      {
-        public string Neck { get; set; }
+        public string Neck {
+            get { return ("Crew"); }
+        }
 
-        public string Sub { get; set; }
+        public string Sub {
+            get { return ("Pullover"); }
+        }
 
-        public string Shoulder { get; set; }
+        public string Shoulder {
+            get { return ("Drop"); } 
+        }
 
-        public string Sleeve { get; set; }
+        public string Sleeve {
+            get { return ("Long"); }
+        }
 
-        public string Size { get; set; }
+        public string Size {
+            get { return ("Small"); }
+        }
 
         abstract public decimal Waist { get; }
 
@@ -31,7 +41,7 @@ namespace KnitDesigner
 
         abstract public decimal SleeveWidth { get; }
 
-        //Set string to "crew"
+        
 
     }
 }

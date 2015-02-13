@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace KnitDesigner
 {
-    public class Sleeve : Sweater
+    class Bust
     {
-
     }
 }
