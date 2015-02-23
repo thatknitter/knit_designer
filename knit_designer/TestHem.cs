@@ -32,7 +32,7 @@ namespace TestKnitDesigner
         public void TestHemScale()
         {
             Hem hem = new Hem(36);
-            hem.Gauge(6);
+            hem.StitchCount(6);
             Assert.AreEqual(216, hem.Circ);
         }
     }

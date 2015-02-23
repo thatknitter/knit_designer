@@ -32,7 +32,7 @@ namespace TestKnitDesigner
         public void TestWaistScale()
         {
             Waist waist = new Waist(25);
-            waist.Gauge(6);
+            waist.StitchCount(6);
             Assert.AreEqual(150, waist.Circ);
         }
     }

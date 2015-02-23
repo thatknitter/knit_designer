@@ -29,6 +29,7 @@ namespace KnitDesigner
                 throw new ArgumentException("Please make sure your gauge is a positve number.");
             }
             this.circ = circ * perInch;
+            return this.circ;
         }
     }
 }
