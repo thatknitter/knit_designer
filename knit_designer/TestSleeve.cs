@@ -29,5 +29,12 @@ namespace TestKnitDesigner
             Sleeve sleeve = new Sleeve(20, -1);
         }
 
+        [TestMethod]
+        public void TestSleeve0Length()
+        {
+            Sleeve sleeve = new Sleeve(null, 0);
+            Assert.AreEqual(0, sleeve.Length);
+            Assert.IsNull(sleeve.Width);
+        }
     }
 }

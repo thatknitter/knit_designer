@@ -26,6 +26,10 @@ namespace KnitDesigner
             {
                 throw new ArgumentException("Please enter a valid number.");
             }
+            if (length = 0)
+            {
+                this.width = null;
+            }
             this.width = width;
             this.length = length;
         }
