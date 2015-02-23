@@ -8,8 +8,8 @@ namespace KnitDesigner
 {
     public class Sleeve
     {
-        private decimal width;
-        public decimal Width
+        private Nullable<decimal> width;
+        public Nullable<decimal> Width
         {
             get { return this.width; }
         }
@@ -20,13 +20,13 @@ namespace KnitDesigner
             get { return this.length; }
         }
 
-        public Sleeve(int width, int length)
+        public Sleeve(decimal? width, decimal length)
         {
-            if (width < 0 || length < 0)
+            if (width <= 0 && length > 0)
             {
                 throw new ArgumentException("Please enter a valid number.");
             }
-            if (length = 0)
+            if (length <= 0)
             {
                 this.width = null;
             }
@@ -34,6 +34,10 @@ namespace KnitDesigner
             this.length = length;
         }
 
+        public decimal Gauge(decimal width)
+        {
+            throw new NotImplementedException();
+        }
 
     }
 }

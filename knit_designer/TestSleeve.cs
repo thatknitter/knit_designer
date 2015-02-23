@@ -19,14 +19,7 @@ namespace TestKnitDesigner
         [ExpectedException(typeof(ArgumentException))]
         public void TestSleeveWidthNotNegative()
         {
-            Sleeve sleeve = new Sleeve(-1, 10);
-        }
-
-        [TestMethod]
-        [ExpectedException(typeof(ArgumentException))]
-        public void TestSleeveLengthNotNegative()
-        {
-            Sleeve sleeve = new Sleeve(20, -1);
+            Sleeve sleeve = new Sleeve(-1, 20);
         }
 
         [TestMethod]
@@ -34,7 +27,16 @@ namespace TestKnitDesigner
         {
             Sleeve sleeve = new Sleeve(null, 0);
             Assert.AreEqual(0, sleeve.Length);
-            Assert.IsNull(sleeve.Width);
+            Assert.AreEqual(null, sleeve.Width);
+        }
+
+        [TestMethod]
+        public void TestSleeveScale()
+        {
+            Sleeve sleeve = new Sleeve(10, 20);
+            sleeve.Gauge(6);
+            Assert.AreEqual(60, sleeve.Width);
+            Assert.AreEqual(120, sleeve.Length);
         }
     }
 }
