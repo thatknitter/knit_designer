@@ -54,6 +54,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Bust.cs" />
+    <Compile Include="Sleeve.cs" />
     <Compile Include="Shoulder.cs" />
     <Compile Include="Hem.cs" />
     <Compile Include="Waist.cs" />

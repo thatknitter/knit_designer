@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KnitDesigner
 {
-    public class Shoulder
+    public class Sleeve
     {
         private decimal width;
         public decimal Width
@@ -14,18 +14,22 @@ namespace KnitDesigner
             get { return this.width; }
         }
 
-        public Shoulder(int width)
+        private decimal length;
+        public decimal Length
         {
-            if (width <= 0)
-            {
-                throw new ArgumentException("Please enter a valid shoulder measurement.");
-            }
-            this.width = width;
+            get { return this.length; }
         }
 
-        public decimal Gauge(int width) 
+        public Sleeve(int width, int length)
         {
-            throw new NotImplementedException();
+            if (width < 0 || length < 0)
+            {
+                throw new ArgumentException("Please enter a valid number.");
+            }
+            this.width = width;
+            this.length = length;
         }
+
+
     }
 }
