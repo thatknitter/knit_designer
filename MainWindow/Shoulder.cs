@@ -23,9 +23,14 @@ namespace KnitDesigner
             this.width = width;
         }
 
-        public decimal Gauge(int width) 
+        public decimal StitchCount(decimal perInch)
         {
-            throw new NotImplementedException();
+            if (perInch <= 0)
+            {
+                throw new ArgumentException("Please make sure your gauge is a positve number.");
+            }
+            this.width = width * perInch;
+            return this.width;
         }
     }
 }

@@ -32,7 +32,7 @@ namespace TestKnitDesigner
         public void TestShoulderScale()
         {
             Shoulder shoulder = new Shoulder(20);
-            shoulder.Gauge(6);
+            shoulder.StitchCount(6);
             Assert.AreEqual(120, shoulder.Width);
         }
     }
