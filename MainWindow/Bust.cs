@@ -13,7 +13,7 @@ namespace KnitDesigner
             get { return this.circ; }
         }
 
-        public Bust(int circ)
+        public Bust(decimal circ)
         {
             if (circ <= 0)
             {
@@ -22,9 +22,13 @@ namespace KnitDesigner
             this.circ = circ;
         }
 
-        public decimal Gauge(int circ) 
+        public decimal StitchCount(decimal perInch) 
         {
-            throw new NotImplementedException();
+            if (perInch <= 0)
+            {
+                throw new ArgumentException("Please make sure your gauge is a positve number.");
+            }
+            this.circ = circ * perInch;
         }
     }
 }

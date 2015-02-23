@@ -32,7 +32,7 @@ namespace TestKnitDesigner
         public void TestBustTimesGauge()
         {
             Bust bust = new Bust(36);
-            bust.Gauge(6);
+            bust.StitchCount(6);
             Assert.AreEqual(216, bust.Circ);
         }
 
