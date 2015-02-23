@@ -7,13 +7,11 @@
         <ComboBox x:Name="SubType" HorizontalAlignment="Left" Height="34" Margin="34,83,0,0" VerticalAlignment="Top" Width="186"/>
         <ComboBox x:Name="ShoulderType" HorizontalAlignment="Left" Height="34" Margin="34,142,0,0" VerticalAlignment="Top" Width="186"/>
         <ComboBox x:Name="Neckline" HorizontalAlignment="Left" Height="34" Margin="34,200,0,0" VerticalAlignment="Top" Width="186"/>
-        <ComboBox x:Name="SleeveType" HorizontalAlignment="Left" Height="34" Margin="34,259,0,0" VerticalAlignment="Top" Width="186"/>
-        <ComboBox x:Name="SizeDesigned" HorizontalAlignment="Left" Height="34" Margin="34,318,0,0" VerticalAlignment="Top" Width="186"/>
+        <ComboBox x:Name="SizeDesigned" HorizontalAlignment="Left" Height="34" Margin="34,257,0,0" VerticalAlignment="Top" Width="186"/>
         <TextBlock HorizontalAlignment="Left" Margin="260,83,0,0" TextWrapping="Wrap" Text="Subtype" VerticalAlignment="Top" FontSize="18" Height="34" Width="74"/>
         <TextBox x:Name="Length" HorizontalAlignment="Left" Height="28" Margin="34,378,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="105" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Margin="260,142,0,0" TextWrapping="Wrap" Text="Shoulder Type" VerticalAlignment="Top" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Margin="260,200,0,0" TextWrapping="Wrap" Text="Neckline" VerticalAlignment="Top" FontSize="18"/>
-        <TextBlock HorizontalAlignment="Left" Margin="260,259,0,0" TextWrapping="Wrap" Text="Sleeve Type" VerticalAlignment="Top" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Margin="260,378,0,0" TextWrapping="Wrap" Text="Length" VerticalAlignment="Top" FontSize="18"/>
         <TextBox x:Name="Width_Base" HorizontalAlignment="Left" Height="28" Margin="34,427,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="105" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Margin="260,427,0,0" TextWrapping="Wrap" Text="Width at Hem" VerticalAlignment="Top" FontSize="18"/>
@@ -24,7 +22,7 @@
         <ScrollBar HorizontalAlignment="Left" Margin="665,10,0,0" VerticalAlignment="Top" Height="599"/>
         <TextBox x:Name="Width_Shoulder" HorizontalAlignment="Left" Height="28" Margin="34,570,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="105" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Margin="260,570,0,0" TextWrapping="Wrap" Text="Width at Shoulder" VerticalAlignment="Top" FontSize="18"/>
-        <TextBlock HorizontalAlignment="Left" Margin="260,318,0,0" TextWrapping="Wrap" Text="Size Designed For" VerticalAlignment="Top" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="260,257,0,0" TextWrapping="Wrap" Text="Size Designed For" VerticalAlignment="Top" FontSize="18"/>
         <TextBox x:Name="Sleeve_Length" HorizontalAlignment="Left" Height="28" Margin="34,617,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="105" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Margin="260,617,0,0" TextWrapping="Wrap" Text="Sleeve Length" VerticalAlignment="Top" FontSize="18"/>
         <TextBox x:Name="Sleeve_Width" HorizontalAlignment="Left" Height="28" Margin="34,665,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="105" FontSize="18"/>
