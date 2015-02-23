@@ -34,9 +34,9 @@ namespace TestKnitDesigner
         public void TestSleeveScale()
         {
             Sleeve sleeve = new Sleeve(10, 20);
-            sleeve.Gauge(6);
+            sleeve.StitchCount(6);
             Assert.AreEqual(60, sleeve.Width);
-            Assert.AreEqual(120, sleeve.Length);
+            Assert.AreEqual(20, sleeve.Length);
         }
     }
 }
