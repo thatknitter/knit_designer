@@ -9,7 +9,14 @@ namespace KnitDesigner
 {
     public class Publications
     {
+        public int GroupID { get; set; }
         public string Group { get; set; }
+
+        public virtual List<Women> Sizes { get; set; }
+        public virtual List<Men> Sizes { get; set; }
+        public virtual List<Child> Sizes { get; set; }
+        public virtual List<Baby> Sizes { get; set; }
+        public virtual List<Toddler> Sizes { get; set; }
         
     }
 
@@ -25,6 +32,8 @@ namespace KnitDesigner
         public decimal XXXXlarge { get; set; }
         public decimal XXXXXlarge { get; set; }
 
+        public int GroupID { get; set; }
+        public virtual Publications Group { get; set; }
     }
 
     public class Men
@@ -38,6 +47,9 @@ namespace KnitDesigner
         public decimal XXXlarge { get; set; }
         public decimal XXXXlarge { get; set; }
         public decimal XXXXXlarge { get; set; }
+
+        public int GroupID { get; set; }
+        public virtual Publications Group { get; set; }
     }
 
     public class Child
@@ -48,6 +60,9 @@ namespace KnitDesigner
         public decimal Large { get; set; }
         public decimal Xlarge { get; set; }
         public decimal XXlarge { get; set; }
+
+        public int GroupID { get; set; }
+        public virtual Publications Group { get; set; }
     }
 
     public class Baby
@@ -60,6 +75,9 @@ namespace KnitDesigner
         public decimal TwelveM { get; set; }
         public decimal EighteenM { get; set; }
         public decimal TwentyfourM { get; set; }
+
+        public int GroupID { get; set; }
+        public virtual Publications Group { get; set; }
     }
 
     public class Toddler
@@ -68,5 +86,18 @@ namespace KnitDesigner
         public decimal ThreeT { get; set; }
         public decimal FourT { get; set; }
         public decimal FiveT { get; set; }
+
+        public int GroupID { get; set; }
+        public virtual Publications Group { get; set; }
+    }
+
+    public class PublicationContext : DbContext
+    {
+        public DbSet<Publications> Groups { get; set; }
+        public DbSet<Women> WomenSize { get; set; }
+        public DbSet<Men> MenSize { get; set; }
+        public DbSet<Child> ChildSize { get; set; }
+        public DbSet<Baby> BabySize { get; set; }
+        public DbSet<Toddler> ToddlerSize { get; set; }
     }
 }
