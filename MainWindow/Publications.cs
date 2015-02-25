@@ -12,11 +12,11 @@ namespace KnitDesigner
         public int GroupID { get; set; }
         public string Group { get; set; }
 
-        public virtual List<Women> Sizes { get; set; }
-        public virtual List<Men> Sizes { get; set; }
-        public virtual List<Child> Sizes { get; set; }
-        public virtual List<Baby> Sizes { get; set; }
-        public virtual List<Toddler> Sizes { get; set; }
+        public virtual List<Women> WSizes { get; set; }
+        public virtual List<Men> MSizes { get; set; }
+        public virtual List<Child> CSizes { get; set; }
+        public virtual List<Baby> BSizes { get; set; }
+        public virtual List<Toddler> TSizes { get; set; }
         
     }
 

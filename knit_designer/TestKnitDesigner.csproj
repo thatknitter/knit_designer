@@ -68,6 +68,8 @@
     <Compile Include="TestWaist.cs" />
     <Compile Include="TestHem.cs" />
     <Compile Include="TestShoulderMeasure.cs" />
+    <Compile Include="OpeningTest.cs" />
+    <Compile Include="TestZeroStateFileOpening.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -61,6 +61,8 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Bust.cs" />
+    <Compile Include="Projects.cs" />
+    <Compile Include="Publications.cs" />
     <Compile Include="Sleeve.cs" />
     <Compile Include="Shoulder.cs" />
     <Compile Include="Hem.cs" />
@@ -72,6 +74,9 @@
     <Compile Include="Sweater.cs" />
     <Compile Include="SweaterPage.xaml.cs">
       <DependentUpon>SweaterPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FilesWindow.xaml.cs">
+      <DependentUpon>FilesWindow.xaml</DependentUpon>
     </Compile>
     <Page Include="Hat.xaml">
       <SubType>Designer</SubType>
@@ -90,6 +95,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="SweaterPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FilesWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
