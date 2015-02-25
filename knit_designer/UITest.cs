@@ -6,6 +6,7 @@ using TestStack.White.Factory;
 using TestStack.White.UIItems;
 using TestStack.White.UIItems.WindowItems;
 using TestStack.White.UIItems.ListBoxItems;
+using KnitDesigner;
 
 namespace TestKnitDesigner
 {
