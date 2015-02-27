@@ -53,6 +53,83 @@ namespace TestKnitDesigner
             Assert.IsTrue(start.Enabled);
         }
 
+        [TestMethod]
+        public void TestOpenFileWindow()
+        {
+            //as a user, when I start the program the files window should open
+        }
+
+        [TestMethod]
+        public void TestCreateNewFile()
+        {
+            //as a user, when I press the "create new pattern" button on the files window, the main window should open and a new file should start
+
+        }
+
+        [TestMethod]
+        public void TestOpenPreviousFile()
+        {
+            //as a user, when I start the program a list of existing files should be visible and I should be able to click on one and open it
+
+        }
+
+        [TestMethod]
+        public void TestRequireGauge()
+        {
+            //as a user, I should not be able to click the start button until I have specified a gauge
+        }
+
+        [TestMethod]
+        public void TestRequireType()
+        {
+            //as a user, I should not be able to click the start button until I have specified a type of pattern
+        }
+
+        [TestMethod]
+        public void TestDetectAge()
+        {
+            //as a user, I should be able to detect an age range and have it input to the db
+        }
+
+        [TestMethod]
+        public void TestDetectYardage()
+        {
+            //as a user, I should be able to detect the value input in the yarn yardage box and submit it to the db
+
+        }
+
+        [TestMethod]
+        public void TestDetectUnits()
+        {
+            //as a user, I should be able to detect which checkbox was chosen and input it to the db
+        }
+
+        [TestMethod]
+        public void TestDetectBalls()
+        {
+            //as a user, I should be able to input the number of yarn balls I used and the program will submit it to the db
+
+        }
+
+        [TestMethod]
+        public void TestDetectEase()
+        {
+            //as a user, I should be able to input the ease and have the system submit it to the db
+        }
+
+        [TestMethod]
+        public void TestDetectPublisher()
+        {
+            //as a user, I should be able to select a publisher and have the system submit that to the db
+        }
+
+        [TestMethod]
+        public void TestOpenSweaterWindow()
+        {
+            //as a user, if "sweater" is selected and the requisite information is detected and the start button is pressed, then the sweater information window is opened
+
+        }
+
         [ClassCleanup]
         public static void TearDown()
         {
